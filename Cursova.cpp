@@ -1601,7 +1601,7 @@ int main()
 	{
 		std::cout << "How many subjects? : ";
 		std::cin >> n;
-		z = n.find_first_not_of("1234567890");
+		z = n.find_first_not_of("123456789");
 		if (z == -1) {
 			m = std::stoi(n);
 			l = false;
